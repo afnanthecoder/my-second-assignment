@@ -72,6 +72,8 @@ nav{
     font-weight: 800;
 }
 .btn-follow{
+  align-items: center;
+  
   display: flex;
   border-radius: 8px;
 background: rgba(11, 2, 35, 0.10);
@@ -138,7 +140,6 @@ background-clip: text;
 }
 .btn-primary1{
     cursor: pointer;
-    
     font-size: large;
     padding: 10px 20px;
     border: none;
@@ -150,7 +151,6 @@ color: aliceblue;
 
 .btn-primary2{
     cursor: pointer;
-    
     font-size: large;
     padding: 10px 20px;
     border: none;
@@ -185,18 +185,28 @@ color: aliceblue;
     border-radius: 20px;
     border: 1.5px solid #f948b2;
 }
+
 .description{
     font-size: 12px;
   font-weight: 500;
- 
+ margin-left: 20px;
   margin-bottom: 40px;
   margin-top: 20px;
   word-wrap: break-word;
+  width: 80%;
+  align-items: center;
+ display: flex;
+ 
+    
+}
+.description1{
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 40px;
+  margin-top: 20px;
   width: 100%;
   align-items: center;
- display: grid;
- grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
-    
+
 }
 
 /* play online section style  */

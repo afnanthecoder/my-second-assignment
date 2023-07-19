@@ -13,10 +13,49 @@
         justify-content: space-between;
         
     }
-    .nav-items-container a{
-        margin-top: 50px;
+    .play{
+        font-size: 25px;
     }
-    .btn-primary{
+    .the-goat{
+        font-size: 50px;
+    }
+    .btn-follow{
         width: 50%;
+    }
+    .btn-primary1{
+        margin-bottom: 10px;
+    }
+    .gammer-img {
+        margin: 10px;
+    }
+    .banner-container{
+        flex-direction: column;
+    }
+    .card-container{
+        flex-direction: column;
+    }
+    .play-online-container{
+        flex-direction: column;
+    }
+    .banner-images{
+        margin-left: 10px;
+    }
+    .title-text h1{
+        font-size: 15px;
+    }
+    .others-game-con{
+        grid-template-columns: repeat(1, 1fr);
+        
+
+    }
+    .game-title{
+        padding: 5px;
+  *{
+    margin: 0;
+  }
+  .footer-section{
+    min-height: 400px;
+    padding: 50px 0px;
+  }
     }
 }
