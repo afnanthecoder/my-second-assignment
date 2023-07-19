@@ -5,23 +5,58 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
+    
 font-family: 'Work Sans', sans-serif;
+
+
 }
 /* header navbar style start from here */
-.menu-container {
+nav{
+    width: 100%;
+    background-color: #fff;
+    border: 1px black;
+}
+.nav-container {
+    
     display: flex;
     justify-content: space-around;
     padding: 20px;
-    background-color: rgb(255, 239, 248);
+    align-items: center;
+    max-width: 1440px;
+    margin:0 auto;
+    
+    
 }
+.nav-items-container{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 400;
+    gap: 20px;
+    }
+    
+    
+    .nav-items-container a {
+        text-decoration: none;
+    }
 .logo-picture {
-    width: 150px;
+    width: 90px;
+    object-fit: cover;
+    margin-right: 10px;
 }
 .logo-container{
     align-items: center;
     display: flex;
+    width: 50%;
 }
+.banner-title {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 400;
+    gap: 25px;
+}
+
 .title-s{
     color: rgb(173, 7, 173)
 }
@@ -29,40 +64,49 @@ font-family: 'Work Sans', sans-serif;
     font-size: 30px;
     font-weight: 800;
 }
-.list-items> li{
-    list-style: none;
-    display: inline-flex;
-    padding: 10px;
-    justify-content: space-between;
-    margin: 20px;
-    align-items: center;
-    font-size: 20px;
-    cursor: pointer;
-}
+
 .btn-primary{
-    width: 250px;
-    height: 56px;
+    padding: 10px 30px;
     cursor: pointer;
     border-radius: 8px;
+    width: 30px;
+    height: 24px;
     background: rgba(11, 2, 35, 0.10);
+    text-align: center;
     
 }
 /* the banner section style start from here  */
- 
-.banner-section{
-    
-    width: 900px;
-    height: 700px;
-    align-items: center;
-    padding: 100px 150px;
-    font-size: large;
+
+
+.banner-container{
     display: flex;
-    justify-content: space-between;
+  justify-content: space-around;
+    max-width: 1440px;
+  margin: 0 auto;
+  align-items: center;
+    
+}
+.banner-title{
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../images/banner.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.play{
+    font-size: 35px;
+  font-weight: 700;
+  
 }
 .the-goat{
-    font-size: 95px;
-    font-style: normal;
-    font-weight: 800;
+    margin-top: 5px;
+  font-size: 70px;
+  font-weight: 800;
     line-height: normal;
     text-transform: uppercase;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -70,15 +114,125 @@ background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
-li{
+ .banner-title ul{
     text-decoration: wavy;
     font-size: large;
     font-weight: 400px;
+    padding: 5px;
 }
 
 
+
+.image-banner{
+    width: 50%;
+   
+    /* object-fit: cover; */
 }
-.bann-img-section{
+.gammer-img{
+    width: 90%;
+  height: 90%;
+}
+.btn-primary1{
+    cursor: pointer;
+    
+    font-size: large;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 48px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+color: aliceblue;
+
+}
+
+.btn-primary2{
+    cursor: pointer;
+    
+    font-size: large;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 48px;
+background: #4EC5F7;
+color: aliceblue;
+
+}
+
+/* online games style  */
+.online-games-title{
+    max-width: 1440px;
     align-items: center;
-    justify-content: flex-end;
+    text-align: center;
+    margin: 0 auto;
 }
+.card-container{
+    display: flex;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+}
+.title-color{
+    color: #F948B2;
+}
+.all-card img{
+    width: 250px;
+  height: 300px;
+  
+}
+.all-card:hover img {
+    border-radius: 20px;
+    border: 1.5px solid #f948b2;
+}
+.description{
+    font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 40px;
+  margin-top: 10px;
+  word-wrap: break-word;
+  width: 100%;
+  align-items: center;
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    
+}
+
+/* play online section style  */
+.play-online-container{
+    display: flex;
+    align-items: center;
+  justify-content: center;
+  max-width: 1440px;
+  margin-top: 20px;
+  gap: 30px;
+  margin: 0 auto;
+}
+.title-text h1{
+    font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  width: 50%px;
+  
+}
+.banner-images{
+    position: relative;
+}
+.img1{
+    width: 80%;
+  height: 100%;
+}
+.img1 img{
+    width:100%
+}
+
+.img2 {
+    width: 75%;
+    position: absolute;
+    top: 70%;
+    right: 35%;
+  }
+  .img2 img {
+    width: 45%;
+    height: fit-content;
+
+  }

@@ -1,0 +1,22 @@
+@media screen and (max-width: 425px) {
+    .nav-container{
+        flex-direction: column;
+    }
+    .logo-container{
+        flex-direction: row;
+        
+    }
+    .nav-items-container {
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
+        justify-content: space-between;
+        
+    }
+    .nav-items-container a{
+        margin-top: 50px;
+    }
+    .btn-primary{
+        width: 50%;
+    }
+}
