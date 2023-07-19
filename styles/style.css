@@ -220,9 +220,11 @@ color: aliceblue;
 .img1{
     width: 80%;
   height: 100%;
+  z-index: 1;
 }
 .img1 img{
     width:100%
+    
 }
 
 .img2 {
@@ -230,9 +232,55 @@ color: aliceblue;
     position: absolute;
     top: 70%;
     right: 35%;
+    z-index: 2;
   }
   .img2 img {
     width: 45%;
     height: fit-content;
 
   }
+
+  /* others game section style  */
+
+  .others-game-section{
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 100px;
+    min-height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    align-content: center;
+    padding: 50px;
+  
+  }
+
+  .game-title{
+    flex-basis: 200px;
+    display: flex;
+  align-items: center;
+  gap: 7px;
+  border-radius: 30px;
+  background: #ffecec;
+  padding: 10px 15px;
+  
+  
+  }
+.all-games{
+    display: flex;
+  align-items: center;
+  gap: 5px;
+  border-radius: 50px;
+  background: #fff;
+  padding: 10px 15px;
+  
+}
+.game-title:hover {
+    color: #ff42a5;
+    border: 2px solid #f948b2;
+
+}
+.game-title img{
+  width: 40px;
+height: 40px
