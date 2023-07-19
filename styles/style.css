@@ -243,21 +243,25 @@ color: aliceblue;
   /* others game section style  */
 
   .others-game-section{
-    max-width: 1440px;
-    margin: 0 auto;
-    margin-top: 100px;
-    min-height: 200px;
     display: flex;
-    flex-wrap: wrap;
-    gap: 25px;
-    justify-content: center;
-    align-content: center;
-    padding: 50px;
   
   }
+  .others-game-con{
+    max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 100px;
+  min-height: 200px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  align-content: center;
+  padding: 50px;
+  }
 
-  .game-title{
-    flex-basis: 200px;
+  .game-title  {
+    
     display: flex;
   align-items: center;
   gap: 7px;
@@ -268,16 +272,12 @@ color: aliceblue;
   
   }
 .all-games{
-    display: flex;
-  align-items: center;
-  gap: 5px;
-  border-radius: 50px;
-  background: #fff;
-  padding: 10px 15px;
+  flex-basis: 200px;
+    
   
 }
 .game-title:hover {
-    color: #ff42a5;
+    color: #35ff1b;
     border: 2px solid #f948b2;
 
 }
