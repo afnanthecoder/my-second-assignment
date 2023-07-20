@@ -185,6 +185,10 @@ color: aliceblue;
     border-radius: 20px;
     border: 1.5px solid #f948b2;
 }
+ul >li{
+  align-items: center;
+  list-style: none;
+}
 
 .description{
     font-size: 12px;
