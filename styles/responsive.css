@@ -1,5 +1,6 @@
 @media screen and (max-width: 425px) {
     /* navbar responsive  */
+    
     .nav-container{
         flex-direction: column;
     }
@@ -14,7 +15,9 @@
         justify-content: space-between;
         
     }
-    
+    ul >li{
+        font-size: small;
+    }
     .play{
         font-size: 25px;
     }
