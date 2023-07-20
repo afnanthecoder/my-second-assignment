@@ -54,6 +54,7 @@
     }
     .game-title{
         padding: 5px;
+    }
   *{
     margin: 0;
   }
@@ -62,12 +63,17 @@
     padding: 50px 0px;
   }
     .down-menu{
-        grid-template-rows: repeat(1, 1fr);
+        flex-direction: column;
     }
     .all-icons{
+        display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
     .privacy{
         display: block;
     }
+    .copyright{
+        font-size: 10px;
+    }
+
 }

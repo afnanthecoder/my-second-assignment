@@ -336,8 +336,8 @@ height: 40px
   justify-content: center;
 }
 .down-menu{
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  display: flex;
+  gap: 20px;
   width: 50%;
   justify-content: center;
   align-items: center;
