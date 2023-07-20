@@ -44,9 +44,13 @@
         font-size: 15px;
     }
     .others-game-con{
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         
 
+    }
+    .all-title{
+        font-weight: 300;
+        font-family: none;
     }
     .game-title{
         padding: 5px;
@@ -57,5 +61,13 @@
     min-height: 400px;
     padding: 50px 0px;
   }
+    .down-menu{
+        grid-template-rows: repeat(1, 1fr);
+    }
+    .all-icons{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .privacy{
+        display: block;
     }
 }

@@ -281,8 +281,9 @@ color: aliceblue;
   align-items: center;
   gap: 7px;
   border-radius: 30px;
-  background: #ffecec;
+  background: #ffffff;
   padding: 10px 15px;
+ 
   
   
   }
@@ -291,6 +292,8 @@ color: aliceblue;
     
   
 }
+
+
 .game-title:hover {
     color: #35ff1b;
     border: 2px solid #f948b2;
