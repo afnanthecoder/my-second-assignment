@@ -43,6 +43,11 @@
     .play-online-container{
         flex-direction: column;
     }
+    .banner-title{
+        width: 100%;
+        background-image: none;
+    }
+
     .banner-images{
         margin-left: 10px;
     }
@@ -61,6 +66,7 @@
     .game-title{
         padding: 5px;
     }
+    
   /* footer section responsive  */
   .footer-section{
     min-height: 400px;
